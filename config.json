@@ -1,39 +1,255 @@
 [
-    {
-        "category": {
-            "name": "TIM",
-            "color": "#2A4DFF80",
-            "sorter": 1
-        },
-        "name": "TIM PRÉ PAGO [Válido][Flare]💙",
-        "description": "Necessário Está com Validade na linha, Consulte A Validade Ligando *222#",
-        "mode": "SSL_PROXY",
-        "tls_version": "TLSv1.3",
-        "sorter": 1,
-        "status": "ACTIVE",
-        "auth": {
-            "username": null,
-            "password": null,
-            "v2ray_uuid": null
-        },
-        "config_openvpn": null,
-        "config_payload": {
-            "payload": "GET / HTTP/1.1[lf]Host: dnet472.infinitywebs.xyz[lf]Upgrade: websocket[lf][lf]",
-            "sni": "dnet472.infinitywebs.xyz"
-        },
-        "config_v2ray": null,
-        "dns_server": {
-            "dns1": "8.8.8.8",
-            "dns2": "8.8.4.4"
-        },
-        "icon": "https://i.ibb.co/8LnTTYdr/TIM.jpg",
-        "proxy": {
-            "host": "162.247.241.4",
-            "port": 443
-        },
-        "server": {
-            "host": "dnet472.infinitywebs.xyz",
-            "port": 22
+  {
+    "category": {
+      "name": "TIM",
+      "color": "#2A4DFF80",
+      "sorter": 1
+    },
+    "name": "TIM PRÉ PAGO [Válido][Flare]💙",
+    "description": "Necessário Está com Validade na linha, Consulte A Validade Ligando *222#",
+    "mode": "SSL_PROXY",
+    "tls_version": "TLSv1.3",
+    "sorter": 1,
+    "status": "ACTIVE",
+    "auth": {
+      "username": null,
+      "password": null,
+      "v2ray_uuid": null
+    },
+    "config_openvpn": null,
+    "config_payload": {
+      "payload": "GET / HTTP/1.1[lf]Host: dnet472.infinitywebs.xyz[lf]Upgrade: websocket[lf][lf]",
+      "sni": "dnet472.infinitywebs.xyz"
+    },
+    "config_v2ray": null,
+    "dns_server": {
+      "dns1": "8.8.8.8",
+      "dns2": "8.8.4.4"
+    },
+    "icon": "https://ibb.co",
+    "proxy": {
+      "host": "162.247.241.4",
+      "port": 443
+    },
+    "server": {
+      "host": "dnet472.infinitywebs.xyz",
+      "port": 22
+    },
+    "dnstt_key": "",
+    "dnstt_name_server": "",
+    "dnstt_server": "",
+    "hy_obfs": "",
+    "hy_insecure": true,
+    "hy_port": "13375",
+    "hy_up_mbps": 100,
+    "hy_down_mbps": 150,
+    "hy_version": 1,
+    "udp_ports": [
+      7300
+    ],
+    "url_check_user": ""
+  },
+  {
+    "category": {
+      "name": "VIVO",
+      "color": "#FF9016A4",
+      "sorter": 2
+    },
+    "name": "VIVO 01 PRÉ PAGO [WEB SECURITY] ",
+    "description": "NECESSÁRIO ESTÁ NA VALIDADE DOS CRÉDITOS",
+    "mode": "SSH_DIRECT",
+    "tls_version": "TLSv1.2",
+    "sorter": 1,
+    "status": "ACTIVE",
+    "auth": {
+      "username": null,
+      "password": null,
+      "v2ray_uuid": null
+    },
+    "config_openvpn": null,
+    "config_payload": {
+      "payload": "[delay_split]GET HTTP/1.1[crlf]Host: ://google.com.br[crlf][crlf]#GET / HTTP/1.1[crlf] br.infinitywebs.xyz[crlf]Upgrade: Websocket[crlf]Host: br.infinitywebs.xyz[crlf][crlf]Upgrade: websocket[crlf]",
+      "sni": null
+    },
+    "config_v2ray": null,
+    "dns_server": {
+      "dns1": "1.1.1.1",
+      "dns2": "8.8.4.4"
+    },
+    "icon": "https://ibb.co",
+    "proxy": {
+      "host": null,
+      "port": null
+    },
+    "server": {
+      "host": "149.78.186.131",
+      "port": 80
+    },
+    "dnstt_key": "",
+    "dnstt_name_server": "",
+    "dnstt_server": "",
+    "hy_obfs": "",
+    "hy_insecure": true,
+    "hy_port": "13375",
+    "hy_up_mbps": 100,
+    "hy_down_mbps": 150,
+    "hy_version": 1,
+    "udp_ports": [
+      7300
+    ],
+    "url_check_user": ""
+  },
+  {
+    "category": {
+      "name": "VIVO",
+      "color": "#FF9016A4",
+      "sorter": 2
+    },
+    "name": "VIVO 02 PRÉ PAGO [VÁLIDO][CLOUD]",
+    "description": "NECESSÁRIO APARECE LOGIN DE REDE VIVO",
+    "mode": "SSH_PROXY",
+    "tls_version": "TLSv1.2",
+    "sorter": 2,
+    "status": "ACTIVE",
+    "auth": {
+      "username": null,
+      "password": null,
+      "v2ray_uuid": null
+    },
+    "config_openvpn": null,
+    "config_payload": {
+      "payload": "GET / HTTP/1.1[crlf]Host: br.infinitywebs.xyz[crlf]Upgrade: websocket[crlf][crlf]#OPTIONS / HTTP/1.1[crlf]Host: br.infinitywebs.xyz[crlf]Upgrade: websocket[crlf][crlf]#PUT / HTTP/1.1[crlf]Host: br.infinitywebs.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "sni": null
+    },
+    "config_v2ray": null,
+    "dns_server": {
+      "dns1": "0.0.0.0",
+      "dns2": "0.0.0.0"
+    },
+    "icon": "https://ibb.co",
+    "proxy": {
+      "host": "104.24.10.16#104.24.11.16#104.24.24.34#104.24.25.34",
+      "port": 80
+    },
+    "server": {
+      "host": "br.infinitywebs.xyz",
+      "port": 22
+    },
+    "dnstt_key": "",
+    "dnstt_name_server": "",
+    "dnstt_server": "",
+    "hy_obfs": "",
+    "hy_insecure": true,
+    "hy_port": "13375",
+    "hy_up_mbps": 100,
+    "hy_down_mbps": 150,
+    "hy_version": 1,
+    "udp_ports": [
+      7300
+    ],
+    "url_check_user": ""
+  },
+  {
+    "category": {
+      "name": "VIVO",
+      "color": "#FF9016A4",
+      "sorter": 2
+    },
+    "name": "VIVO 03 PRÉ PAGO [PROXY]",
+    "description": "NECESSÁRIO ESTÁ NA PROMOÇÃO VIVO TURBO 30 DIAS",
+    "mode": "SSH_PROXY",
+    "tls_version": "TLSv1.2",
+    "sorter": 3,
+    "status": "ACTIVE",
+    "auth": {
+      "username": null,
+      "password": null,
+      "v2ray_uuid": null
+    },
+    "config_openvpn": null,
+    "config_payload": {
+      "payload": "ACL / [split]HTTP/1.1 [lf]Host: br.infinitywebs.xyz[lf]Upgrade: Websocket[lf][lf]#GET / HTTP/1.1[lf]Host: br.infinitywebs.xyz[lf]Upgrade: Websocket[lf][lf]",
+      "sni": null
+    },
+    "config_v2ray": null,
+    "dns_server": {
+      "dns1": "0.0.0.0",
+      "dns2": "0.0.0.0"
+    },
+    "icon": "https://ibb.co",
+    "proxy": {
+      "host": "104.26.12.205#172.67.74.152#162.159.130.11#104.16.46.231#104.16.47.231#104.16.48.231#104.16.49.231#104.16.50.231#104.17.237.25#104.17.239.25#104.17.240.25#104.17.241.25#104.18.10.75#104.18.14.102#104.18.15.102",
+      "port": 80
+    },
+    "server": {
+      "host": "br.infinitywebs.xyz",
+      "port": 22
+    },
+    "dnstt_key": "",
+    "dnstt_name_server": "",
+    "dnstt_server": "",
+    "hy_obfs": "",
+    "hy_insecure": true,
+    "hy_port": "13375",
+    "hy_up_mbps": 100,
+    "hy_down_mbps": 150,
+    "hy_version": 1,
+    "udp_ports": [
+      7300
+    ],
+    "url_check_user": ""
+  },
+  {
+    "category": {
+      "name": "VIVO",
+      "color": "#FF9016A4",
+      "sorter": 2
+    },
+    "name": "VIVO 04 BACKEND PRÉ PAGO",
+    "description": "NECESSÁRIO ESTÁ APARECENDO LOGIN DE REDE VIVO",
+    "mode": "SSH_PROXY",
+    "tls_version": "TLSv1.2",
+    "sorter": 4,
+    "status": "ACTIVE",
+    "auth": {
+      "username": null,
+      "password": null,
+      "v2ray_uuid": null
+    },
+    "config_openvpn": null,
+    "config_payload": {
+      "payload": "ACL / HTTP/1.1[crlf]Host: dnet472.infinitywebs.xyz[crlf]Upgrade: Websocket[crlf][crlf]#ACL / [split]HTTP/1.1 [lf]Host: dnet472.infinitywebs.xyz[lf]Upgrade: Websocket[lf][lf]",
+      "sni": null
+    },
+    "config_v2ray": null,
+    "dns_server": {
+      "dns1": "8.8.8.8",
+      "dns2": "8.8.4.4"
+    },
+    "icon": "https://ibb.co",
+    "proxy": {
+      "host": "://vivo.com.br#://vivo.com.br#://vivo.com.br#://vivo.com.br#://vivo.com.br#://vivo.com.br#://vivo.com.br#://vivo.com.br#://vivo.com.br#://vivo.com.br#://vivo.com.br#://vivo.com.br#backoffice-://vivo.com.br#://vivo.com.br#://vivo.com.br#://vivo.com.br#://vivo.com.br#://vivo.com.br#://vivo.com.br#://vivo.com.br#://vivo.com.br#://vivo.com.br#://vivo.com.br#162.159.136.63#162.159.135.63#://vivo.com.br#://vivo.com.br",
+      "port": 80
+    },
+    "server": {
+      "host": "br.infinitywebs.xyz",
+      "port": 22
+    },
+    "dnstt_key": "",
+    "dnstt_name_server": "",
+    "dnstt_server": "",
+    "hy_obfs": "",
+    "hy_insecure": true,
+    "hy_port": "13375",
+    "hy_up_mbps": 100,
+    "hy_down_mbps": 150,
+    "hy_version": 1,
+    "udp_ports": [
+      7300
+    ],
+    "url_check_user": ""
+  }
+]
         },
         "dnstt_key": "",
         "dnstt_name_server": "",
